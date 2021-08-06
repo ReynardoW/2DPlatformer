@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
         
         //Similar to Run() but vertical instead of horizontal
         float controlThrow = CrossPlatformInputManager.GetAxis("Vertical");
-        Vector2 climbVelocity = new Vector2(playerRigidBody.velocity.x, controlThrow * climbSpeed);
+        Vector2 climbVelocity = new Vector2(playerRigidBody.velocity.x / 3, controlThrow * climbSpeed);
         playerRigidBody.velocity = climbVelocity;
         playerRigidBody.gravityScale = 0; // Player does not drop due to gravity while on ladder
         // Transition animation state to climbing
