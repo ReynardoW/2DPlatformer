@@ -33,10 +33,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!isAlive)
+        {
+            return;
+        }
         Run();
         ClimbLadder();
         Jump();
         FlipSprite();
+        Death();
     }
     
     private void Run()
@@ -87,5 +92,13 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector2(Mathf.Sign(playerRigidBody.velocity.x), 1f);
         }
+    }
+    private void Death()
+    {
+        if(playerBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
+            {
+                isAlive = false;
+                playerAnimator.SetTrigger("isDying");
+            }
     }
 }

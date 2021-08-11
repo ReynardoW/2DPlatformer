@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: d795243594ec79e43835a79721138c9f
+guid: a00d04b18ff211041b844e2f3d998043
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7049425701803912285
-    second: hit,death_sheet_0
+      213: -570807933488141205
+    second: SPA_Enemy_Right_0
   - first:
-      213: 4189826432238500723
-    second: hit,death_sheet_1
+      213: -7165589731514352205
+    second: SPA_Enemy_Right_1
   - first:
-      213: 8184931185519497256
-    second: hit,death_sheet_2
+      213: -8322909438818461173
+    second: SPA_Enemy_Right_2
   - first:
-      213: 1811967904153442034
-    second: hit,death_sheet_3
+      213: -6255873791086419314
+    second: SPA_Enemy_Right_3
   - first:
-      213: 5159784353454525443
-    second: hit,death_sheet_4
+      213: 8428840200775804847
+    second: SPA_Enemy_Right_4
   - first:
-      213: 2531842865582075277
-    second: hit,death_sheet_5
-  - first:
-      213: -7586979126751456223
-    second: hit,death_sheet_6
-  - first:
-      213: 3421591093408775420
-    second: hit,death_sheet_7
+      213: -4694928931602649372
+    second: SPA_Enemy_Right_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +79,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -139,169 +133,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hit,death_sheet_0
+      name: SPA_Enemy_Right_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 3
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5ce78a835794d160800000000000000
-      internalID: 7049425701803912285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit,death_sheet_1
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 3
-        width: 23
+        x: 12
+        y: 7
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b3e1401f0452a30800000000000000
-      internalID: 4189826432238500723
+      spriteID: b6ce67175351418f0800000000000000
+      internalID: -570807933488141205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit,death_sheet_2
+      name: SPA_Enemy_Right_1
       rect:
         serializedVersion: 2
-        x: 141
-        y: 3
-        width: 24
-        height: 30
+        x: 50
+        y: 7
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82018ef2c87b69170800000000000000
-      internalID: 8184931185519497256
+      spriteID: 3bd76e6aa16be8c90800000000000000
+      internalID: -7165589731514352205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit,death_sheet_3
+      name: SPA_Enemy_Right_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 3
-        width: 25
-        height: 26
+        x: 88
+        y: 7
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f699776537652910800000000000000
-      internalID: 1811967904153442034
+      spriteID: b0ada7946f51f7c80800000000000000
+      internalID: -8322909438818461173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit,death_sheet_4
+      name: SPA_Enemy_Right_3
       rect:
         serializedVersion: 2
-        x: 263
-        y: 0
-        width: 38
-        height: 13
+        x: 126
+        y: 7
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c8641288c3b9740800000000000000
-      internalID: 5159784353454525443
+      spriteID: e822e9a9eebae29a0800000000000000
+      internalID: -6255873791086419314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit,death_sheet_5
+      name: SPA_Enemy_Right_4
       rect:
         serializedVersion: 2
-        x: 333
-        y: 3
-        width: 21
-        height: 35
+        x: 164
+        y: 7
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d60260ca9e22320800000000000000
-      internalID: 2531842865582075277
+      spriteID: fa726c3318149f470800000000000000
+      internalID: 8428840200775804847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit,death_sheet_6
+      name: SPA_Enemy_Right_5
       rect:
         serializedVersion: 2
-        x: 397
-        y: 3
-        width: 20
-        height: 36
+        x: 202
+        y: 7
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1241da78ea2a5b690800000000000000
-      internalID: -7586979126751456223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit,death_sheet_7
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 3
-        width: 20
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfc354998feeb7f20800000000000000
-      internalID: 3421591093408775420
+      spriteID: 4eeae12f20348deb0800000000000000
+      internalID: -4694928931602649372
       vertices: []
       indices: 
       edges: []
